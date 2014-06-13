@@ -1,0 +1,53 @@
+{
+  "name": "grunt-prince",
+  "description": "Grunt Task that uses prince to convert HTML files to PDF",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paulpflug/grunt-prince/",
+  "author": {
+    "name": "Paul Pflugradt",
+    "email": "paul.pflugradt@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulpflug/grunt-prince.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulpflug/grunt-prince/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/paulpflug/grunt-prince/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": {
+    "grunt-prince": "bin/grunt-prince"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-newer": "~0.7.0",
+    "time-grunt": "~0.3.1",
+    "load-grunt-tasks": "~0.4.0",
+    "coffee-script": "^1.7.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "pdf",
+    "convert",
+    "html"
+  ],
+  "readmeFilename": "README.md"
+}
