@@ -20,18 +20,14 @@
       "url": "https://github.com/paulpflug/grunt-prince/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "grunt.js",
+  "main": "gruntfile.coffee",
   "bin": {
     "grunt-prince": "bin/grunt-prince"
   },
   "engines": {
     "node": "*"
   },
-  "scripts": {
-    "test": "grunt test"
-  },
   "dependencies": {
-    "grunt": "~0.4.5"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
