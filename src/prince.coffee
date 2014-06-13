@@ -9,6 +9,7 @@ module.exports = (grunt) ->
           code: 90
           args: [
             "--media=print" # Use @print media type
+            "--javascript"
             src
             "--output"
             f.dest

@@ -8,7 +8,7 @@
           grunt.log.writeln("pdf output is: " + f.dest);
           return helper.convert({
             code: 90,
-            args: ["--media=print", src, "--output", f.dest],
+            args: ["--media=print", "--javascript", src, "--output", f.dest],
             done: function(err) {
               if (err) {
                 return grunt.log(">>>", err);
