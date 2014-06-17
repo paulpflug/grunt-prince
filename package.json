@@ -1,7 +1,7 @@
 {
   "name": "grunt-prince",
   "description": "Grunt Task that uses prince to convert HTML files to PDF",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/paulpflug/grunt-prince/",
   "author": {
     "name": "Paul Pflugradt",
